@@ -1,13 +1,17 @@
 import React,{useState} from 'react'
 import Square from './Square';
 
-const Board = ({board , handleSquareClick}) => {
+const Board = ({board , handleSquareClick,winningSquares}) => {
 
   //render function which renders X or O when clicked
   const renderSquare = (position)=> {
+   
+    const isWinnerSquare = winningSquares.includes(position);        //for dynamic style (bold) when square is a winner
+
     return <Square 
     value={board[position]}
     onClick={()=> handleSquareClick(position)}
+    isWinningSquare={isWinnerSquare}
     />
 
   }
