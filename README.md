@@ -1,3 +1,13 @@
+# TicTacToe using React
+
+A Tic-Tac-Toe game build using React Library having a beautiful UI (made using sass).
+
+![image](https://user-images.githubusercontent.com/64298475/155881849-d6c99697-0b2e-4077-8cde-a2904b497b59.png)
+
+
+Live Link : https://shivakarka-tictactoe.netlify.app/
+
+
 # Nano React App Default Javascript Template
 
 The default template project for [nano-react-app](https://github.com/nano-react-app/nano-react-app).
